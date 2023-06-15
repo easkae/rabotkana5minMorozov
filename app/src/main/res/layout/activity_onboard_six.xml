@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:text="Создание карты \nпациента"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="right"
+            android:text="Пропустить"
+            android:textColor="#1A6FEE" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Без карты пациента вы не сможете заказать \nанализы" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:text="В картах пациентов будут храниться результаты \nанализов вас и ваших близких  " />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bgbig"
+            android:textColor="#79000000"
+            android:textSize="14sp"
+            android:ems="10"
+            android:hint="  Имя "
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textColor="#79000000"
+            android:textSize="14sp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bgbig"
+            android:ems="10"
+            android:hint="  Отчество "
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textColor="#79000000"
+            android:textSize="14sp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bgbig"
+            android:ems="10"
+            android:hint="  Фамилия "
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextDate"
+            style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+            android:layout_width="350dp"
+            android:textColor="#79000000"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bgbig"
+            android:ems="10"
+            android:hint="  Дата рождения "
+            android:inputType="date" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bgbig" />
+
+    </LinearLayout>
+</LinearLayout>
